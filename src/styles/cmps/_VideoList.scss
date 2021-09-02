@@ -1,0 +1,16 @@
+.video-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 300px);
+	gap: 1rem;
+
+	.empty-msg {
+		a {
+			text-decoration: underline;
+			color: #17599b;
+
+			&:hover {
+				color: #e91414;
+			}
+		}
+	}
+}

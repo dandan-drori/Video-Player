@@ -1,0 +1,42 @@
+.upload-loader {
+	position: absolute;
+	bottom: 1rem;
+	left: 1rem;
+	background-color: #111010;
+	color: #fefefe;
+	width: fit-content;
+	border-radius: 5px;
+	padding: 5px 20px;
+
+	p {
+		user-select: none;
+	}
+
+	&.done {
+		display: none;
+	}
+
+	&.uploading {
+		p {
+			span {
+				color: #a7d3ff;
+			}
+		}
+	}
+
+	&.fail {
+		p {
+			span {
+				color: #b81d18;
+			}
+		}
+	}
+
+	&.success {
+		p {
+			span {
+				color: #18b818;
+			}
+		}
+	}
+}
